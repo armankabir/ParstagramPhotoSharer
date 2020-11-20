@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2F13602256842D900878CE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F13601256842D900878CE8 /* AppDelegate.swift */; };
+		C2F13604256842D900878CE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F13603256842D900878CE8 /* SceneDelegate.swift */; };
+		C2F13606256842D900878CE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F13605256842D900878CE8 /* ViewController.swift */; };
+		C2F13609256842D900878CE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F13607256842D900878CE8 /* Main.storyboard */; };
+		C2F1360B256842DD00878CE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2F1360A256842DD00878CE8 /* Assets.xcassets */; };
+		C2F1360E256842DD00878CE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F1360C256842DD00878CE8 /* LaunchScreen.storyboard */; };
+		C2F13619256842DE00878CE8 /* ParstagramPhotoSharerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F13618256842DE00878CE8 /* ParstagramPhotoSharerTests.swift */; };
+		C2F13624256842DE00878CE8 /* ParstagramPhotoSharerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F13623256842DE00878CE8 /* ParstagramPhotoSharerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2F13615256842DD00878CE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2F135F6256842D900878CE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2F135FD256842D900878CE8;
+			remoteInfo = ParstagramPhotoSharer;
+		};
+		C2F13620256842DE00878CE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2F135F6256842D900878CE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2F135FD256842D900878CE8;
+			remoteInfo = ParstagramPhotoSharer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2F135FE256842D900878CE8 /* ParstagramPhotoSharer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParstagramPhotoSharer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F13601256842D900878CE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2F13603256842D900878CE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C2F13605256842D900878CE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2F13608256842D900878CE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2F1360A256842DD00878CE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2F1360D256842DD00878CE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2F1360F256842DD00878CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2F13614256842DD00878CE8 /* ParstagramPhotoSharerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParstagramPhotoSharerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F13618256842DE00878CE8 /* ParstagramPhotoSharerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParstagramPhotoSharerTests.swift; sourceTree = "<group>"; };
+		C2F1361A256842DE00878CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2F1361F256842DE00878CE8 /* ParstagramPhotoSharerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParstagramPhotoSharerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F13623256842DE00878CE8 /* ParstagramPhotoSharerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParstagramPhotoSharerUITests.swift; sourceTree = "<group>"; };
+		C2F13625256842DE00878CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2F135FB256842D900878CE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F13611256842DD00878CE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F1361C256842DE00878CE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2F135F5256842D900878CE8 = {
+			isa = PBXGroup;
+			children = (
+				C2F13600256842D900878CE8 /* ParstagramPhotoSharer */,
+				C2F13617256842DE00878CE8 /* ParstagramPhotoSharerTests */,
+				C2F13622256842DE00878CE8 /* ParstagramPhotoSharerUITests */,
+				C2F135FF256842D900878CE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2F135FF256842D900878CE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2F135FE256842D900878CE8 /* ParstagramPhotoSharer.app */,
+				C2F13614256842DD00878CE8 /* ParstagramPhotoSharerTests.xctest */,
+				C2F1361F256842DE00878CE8 /* ParstagramPhotoSharerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2F13600256842D900878CE8 /* ParstagramPhotoSharer */ = {
+			isa = PBXGroup;
+			children = (
+				C2F13601256842D900878CE8 /* AppDelegate.swift */,
+				C2F13603256842D900878CE8 /* SceneDelegate.swift */,
+				C2F13605256842D900878CE8 /* ViewController.swift */,
+				C2F13607256842D900878CE8 /* Main.storyboard */,
+				C2F1360A256842DD00878CE8 /* Assets.xcassets */,
+				C2F1360C256842DD00878CE8 /* LaunchScreen.storyboard */,
+				C2F1360F256842DD00878CE8 /* Info.plist */,
+			);
+			path = ParstagramPhotoSharer;
+			sourceTree = "<group>";
+		};
+		C2F13617256842DE00878CE8 /* ParstagramPhotoSharerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2F13618256842DE00878CE8 /* ParstagramPhotoSharerTests.swift */,
+				C2F1361A256842DE00878CE8 /* Info.plist */,
+			);
+			path = ParstagramPhotoSharerTests;
+			sourceTree = "<group>";
+		};
+		C2F13622256842DE00878CE8 /* ParstagramPhotoSharerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2F13623256842DE00878CE8 /* ParstagramPhotoSharerUITests.swift */,
+				C2F13625256842DE00878CE8 /* Info.plist */,
+			);
+			path = ParstagramPhotoSharerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2F135FD256842D900878CE8 /* ParstagramPhotoSharer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2F13628256842DE00878CE8 /* Build configuration list for PBXNativeTarget "ParstagramPhotoSharer" */;
+			buildPhases = (
+				C2F135FA256842D900878CE8 /* Sources */,
+				C2F135FB256842D900878CE8 /* Frameworks */,
+				C2F135FC256842D900878CE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParstagramPhotoSharer;
+			productName = ParstagramPhotoSharer;
+			productReference = C2F135FE256842D900878CE8 /* ParstagramPhotoSharer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2F13613256842DD00878CE8 /* ParstagramPhotoSharerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2F1362B256842DE00878CE8 /* Build configuration list for PBXNativeTarget "ParstagramPhotoSharerTests" */;
+			buildPhases = (
+				C2F13610256842DD00878CE8 /* Sources */,
+				C2F13611256842DD00878CE8 /* Frameworks */,
+				C2F13612256842DD00878CE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2F13616256842DD00878CE8 /* PBXTargetDependency */,
+			);
+			name = ParstagramPhotoSharerTests;
+			productName = ParstagramPhotoSharerTests;
+			productReference = C2F13614256842DD00878CE8 /* ParstagramPhotoSharerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2F1361E256842DE00878CE8 /* ParstagramPhotoSharerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2F1362E256842DE00878CE8 /* Build configuration list for PBXNativeTarget "ParstagramPhotoSharerUITests" */;
+			buildPhases = (
+				C2F1361B256842DE00878CE8 /* Sources */,
+				C2F1361C256842DE00878CE8 /* Frameworks */,
+				C2F1361D256842DE00878CE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2F13621256842DE00878CE8 /* PBXTargetDependency */,
+			);
+			name = ParstagramPhotoSharerUITests;
+			productName = ParstagramPhotoSharerUITests;
+			productReference = C2F1361F256842DE00878CE8 /* ParstagramPhotoSharerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2F135F6256842D900878CE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					C2F135FD256842D900878CE8 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					C2F13613256842DD00878CE8 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = C2F135FD256842D900878CE8;
+					};
+					C2F1361E256842DE00878CE8 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = C2F135FD256842D900878CE8;
+					};
+				};
+			};
+			buildConfigurationList = C2F135F9256842D900878CE8 /* Build configuration list for PBXProject "ParstagramPhotoSharer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2F135F5256842D900878CE8;
+			productRefGroup = C2F135FF256842D900878CE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2F135FD256842D900878CE8 /* ParstagramPhotoSharer */,
+				C2F13613256842DD00878CE8 /* ParstagramPhotoSharerTests */,
+				C2F1361E256842DE00878CE8 /* ParstagramPhotoSharerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2F135FC256842D900878CE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F1360E256842DD00878CE8 /* LaunchScreen.storyboard in Resources */,
+				C2F1360B256842DD00878CE8 /* Assets.xcassets in Resources */,
+				C2F13609256842D900878CE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F13612256842DD00878CE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F1361D256842DE00878CE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2F135FA256842D900878CE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F13606256842D900878CE8 /* ViewController.swift in Sources */,
+				C2F13602256842D900878CE8 /* AppDelegate.swift in Sources */,
+				C2F13604256842D900878CE8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F13610256842DD00878CE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F13619256842DE00878CE8 /* ParstagramPhotoSharerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F1361B256842DE00878CE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F13624256842DE00878CE8 /* ParstagramPhotoSharerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2F13616256842DD00878CE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2F135FD256842D900878CE8 /* ParstagramPhotoSharer */;
+			targetProxy = C2F13615256842DD00878CE8 /* PBXContainerItemProxy */;
+		};
+		C2F13621256842DE00878CE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2F135FD256842D900878CE8 /* ParstagramPhotoSharer */;
+			targetProxy = C2F13620256842DE00878CE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2F13607256842D900878CE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2F13608256842D900878CE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2F1360C256842DD00878CE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2F1360D256842DD00878CE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2F13626256842DE00878CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2F13627256842DE00878CE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2F13629256842DE00878CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ParstagramPhotoSharer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = armankabir.ParstagramPhotoSharer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2F1362A256842DE00878CE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ParstagramPhotoSharer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = armankabir.ParstagramPhotoSharer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C2F1362C256842DE00878CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ParstagramPhotoSharerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = armankabir.ParstagramPhotoSharerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParstagramPhotoSharer.app/ParstagramPhotoSharer";
+			};
+			name = Debug;
+		};
+		C2F1362D256842DE00878CE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ParstagramPhotoSharerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = armankabir.ParstagramPhotoSharerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParstagramPhotoSharer.app/ParstagramPhotoSharer";
+			};
+			name = Release;
+		};
+		C2F1362F256842DE00878CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ParstagramPhotoSharerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = armankabir.ParstagramPhotoSharerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParstagramPhotoSharer;
+			};
+			name = Debug;
+		};
+		C2F13630256842DE00878CE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ParstagramPhotoSharerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = armankabir.ParstagramPhotoSharerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParstagramPhotoSharer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2F135F9256842D900878CE8 /* Build configuration list for PBXProject "ParstagramPhotoSharer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F13626256842DE00878CE8 /* Debug */,
+				C2F13627256842DE00878CE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2F13628256842DE00878CE8 /* Build configuration list for PBXNativeTarget "ParstagramPhotoSharer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F13629256842DE00878CE8 /* Debug */,
+				C2F1362A256842DE00878CE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2F1362B256842DE00878CE8 /* Build configuration list for PBXNativeTarget "ParstagramPhotoSharerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F1362C256842DE00878CE8 /* Debug */,
+				C2F1362D256842DE00878CE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2F1362E256842DE00878CE8 /* Build configuration list for PBXNativeTarget "ParstagramPhotoSharerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F1362F256842DE00878CE8 /* Debug */,
+				C2F13630256842DE00878CE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2F135F6256842D900878CE8 /* Project object */;
+}
