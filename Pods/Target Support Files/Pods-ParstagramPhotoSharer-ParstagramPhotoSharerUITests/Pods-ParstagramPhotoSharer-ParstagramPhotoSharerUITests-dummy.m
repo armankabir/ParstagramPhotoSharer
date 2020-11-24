@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_ParstagramPhotoSharer_ParstagramPhotoSharerUITests : NSObject
+@end
+@implementation PodsDummy_Pods_ParstagramPhotoSharer_ParstagramPhotoSharerUITests
+@end

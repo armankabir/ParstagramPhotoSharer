@@ -1,0 +1,6 @@
+framework module Pods_ParstagramPhotoSharer_ParstagramPhotoSharerUITests {
+  umbrella header "Pods-ParstagramPhotoSharer-ParstagramPhotoSharerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
