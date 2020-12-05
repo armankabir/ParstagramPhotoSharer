@@ -4,11 +4,13 @@
 target 'ParstagramPhotoSharer' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  pod 'Alamofire'
-  pod 'AlamofireImage'
-  pod 'Parse'
+  	
 
   # Pods for ParstagramPhotoSharer
+	pod 'Alamofire'
+ 	pod 'AlamofireImage'
+  	pod 'Parse'
+ 	pod 'MessageInputBar'
 
   target 'ParstagramPhotoSharerTests' do
     inherit! :search_paths
